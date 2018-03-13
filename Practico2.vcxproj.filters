@@ -27,6 +27,18 @@
     <ClInclude Include="menu.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="operaciones_binarias.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="opraciones_logicas.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="operaciones_preprocesador.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Controlador.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -48,6 +60,9 @@
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="operaciones_binarias.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Controlador.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
