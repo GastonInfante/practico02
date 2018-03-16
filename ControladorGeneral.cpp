@@ -5,8 +5,47 @@
 #include "operaciones_logicas.h"
 #include "ControladorBinario.h"
 #include "operaciones_string.h"
-#include "string.h"
+#include "ControladorGeneral.h"
 
+void actions(int startChoice)
+{
+	switch (startChoice)
+	{
+	case 1:
+		squaring();
+		break;
+	case 2:
+		add();
+		break;
+	case 3:
+		area();
+		break;
+	case 4:
+		maximum();
+		break;
+	case 5:
+		names();
+		break;
+	case 6:
+		callText();
+		break;
+	case 7:
+		callCompareString();
+		break;
+	case 8:
+		callSwap();
+		break;
+	case 9:
+		binaryChoice();
+		break;
+	case 10:
+		exit(0);
+		break;
+	default:
+		printf("NO ES CORRECTO");
+		break;
+	}
+}
 
  void squaring()
 {
@@ -100,10 +139,4 @@ void binaryChoice()
 	printf("Elija una opción y presione ENTER\n 1_AND binario\n 2_OR binario\n 3_Desplazar 2 bits a la derecha\n 4_Desplazar 2 bits a la izquierda\n 5_Volver\n");
 	scanf_s("%d", &choice);
 	BinaryOperations(choice);
-
 }
-
-
-
-
-

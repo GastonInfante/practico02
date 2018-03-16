@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "ControladorGeneral.h"
 
 int start() 
 {
@@ -18,43 +17,4 @@ int start()
 	printf("10_ Salir\n");
 	scanf_s("\n%d", &startChoice);
 	return startChoice;
-}
-void actions(int startChoice)
-{
-	switch (startChoice)
-	{
-	case 1:
-		squaring();
-		break;
-	case 2:
-		add();
-		break;
-	case 3:
-		area();
-		break;
-	case 4:
-		maximum();
-		break;
-	case 5:
-		names();
-		break;
-	case 6:
-		callText();
-		break;
-	case 7:
-		callCompareString();
-		break;
-	case 8:
-		callSwap();
-		break;
-	case 9:
-		binaryChoice();
-		break;
-	case 10:
-		exit(0);
-		break;
-	default:
-		printf("NO ES CORRECTO");
-		break;
-	}
 }
