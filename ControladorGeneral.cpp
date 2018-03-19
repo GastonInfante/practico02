@@ -115,7 +115,7 @@ void callCompareString()
 	std::cin.getline(str1, 100);
 	printf("Ingrese la segunda cadena de texto y pulse ENTER\n");
 	std::cin.getline(str2, 100);
-	printf("str: %s\n", str1);
+	//printf("str: %s\n", str1);
 	bool result = compareString(str1, str2);
 	if (result) printf("Las cadenas son iguales");
 	else printf("Las cadenas son distintas");
@@ -128,7 +128,7 @@ void callSwap()
 	int num2;
 	printf("Ingrese dos números y presione ENTER\n");
 	scanf_s("%d\n %d", &num1, &num2);
-	void swap(int num1, int num2);
+	swap(num1, num2);
 }
 
 void binaryChoice()
